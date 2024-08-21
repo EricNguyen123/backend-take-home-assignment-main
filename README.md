@@ -8,15 +8,6 @@ our users to (1) send, (2) accept, and (3) decline friend requests, as well as
 (4) view their friends' profiles.
 
 
-## Overview
-
-This take-home assignment aims to assess the followings:
-  - Your competence in Javascript/TypeScript & their ecosystem
-  - Your competence in SQL
-  - Your ability to follow instructions
-  - Your ability to adapt to a new codebase
-  - Your ability to read documents
-  - Your ability to "Google" & "Stackoverflow" your way to the answers
 
 
 ## Set-up
@@ -35,37 +26,16 @@ the following Extensions:
 
 ## Instructions
 
-There are only 2 tables in our applications: `users` and `friendships`. You can
-view their structures in `src/server/db/schema.prisma`.
+Answer 
+- [Answer 1](https://github.com/EricNguyen123/backend-take-home-assignment-main/blob/8c89d11852cc0a7785d60c4a5a8e0b429917aa5d/src/server/api/routers/friendship-request-router.ts#L91 )
+- [Answer 2](https://github.com/EricNguyen123/backend-take-home-assignment-main/blob/8c89d11852cc0a7785d60c4a5a8e0b429917aa5d/src/server/api/routers/friendship-request-router.ts#L132)
+- [Answer 3](https://github.com/EricNguyen123/backend-take-home-assignment-main/blob/8c89d11852cc0a7785d60c4a5a8e0b429917aa5d/src/server/api/routers/friendship-request-router.ts#L87)
+- [Answer 4](https://github.com/EricNguyen123/backend-take-home-assignment-main/blob/8c89d11852cc0a7785d60c4a5a8e0b429917aa5d/src/server/api/routers/my-friend-router.ts#L75)
 
-You will be strictly working on & making changes to the following files below.
-Do not create new files or make any changes to any other files in the repo.
+NOTE: if the links to the inactive queries, you can find them in the following files
 
-  - `src/server/api/routers/friendship-request-router.ts`
-  - `src/server/api/routers/my-friend-router.ts`
-  - `src/server/tests/friendship-request.test.ts`
-
-
-There are 4 questions in total. Though not enforced, we highly recommend that
-you do them in order. There are further instructions embeded in the questions.
-
-  - [Question 1](https://github.com/TheNowProject/backend-take-home-assignment/blob/main/src/server/api/routers/friendship-request-router.ts#L98)
-  - [Question 2](https://github.com/TheNowProject/backend-take-home-assignment/blob/main/src/server/api/routers/friendship-request-router.ts#L128)
-  - [Question 3](https://github.com/TheNowProject/backend-take-home-assignment/blob/main/src/server/api/routers/friendship-request-router.ts#L69)
-  - [Question 4](https://github.com/TheNowProject/backend-take-home-assignment/blob/main/src/server/api/routers/my-friend-router.ts#L25)
-
-NOTE: if the links to the questions do not work, you can find them in the
-following files
-
-  - `src/server/api/routers/friendship-request-router.ts`
-  - `src/server/api/routers/my-friend-router.ts`
-
-After you finish the test, do a self-assessment by completing the checklist
-in the **Checklist** section below.
-
-Finally, publish the finished repo to your Github, then send the url
-to the repo via email to `binhdv@thenowproject.com.vn` and
-`baotran@thenowproject.com.vn`
+- `src/server/api/routers/friendship-request-router.ts`
+- `src/server/api/routers/my-friend- router.ts`
 
 
 
